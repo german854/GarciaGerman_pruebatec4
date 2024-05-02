@@ -1,0 +1,62 @@
+Colección de Postman para Hoteles:
+
+    Obtener todos los hoteles:
+        Método: GET
+        URL: http://localhost:8080/agency/hotels
+
+    Buscar hoteles por nombre:
+        Método: GET
+        URL: http://localhost:8080/agency/hotels?nombre=nombre_hotel
+
+    Crear un nuevo hotel:
+        Método: POST
+        URL: http://localhost:8080/agency/hotels
+        Cuerpo (JSON): Datos del nuevo hotel
+
+    Editar un hotel existente:
+        Método: PUT
+        URL: http://localhost:8080/agency/hotels/{id}
+        Cuerpo (JSON): Datos actualizados del hotel
+
+    Eliminar un hotel:
+        Método: DELETE
+        URL: http://localhost:8080/agency/hotels/{id}
+
+Colección de Postman para Reservas:
+
+    Crear una nueva reserva:
+        Método: POST
+        URL: http://localhost:8080/agency/room-booking/new (o la URL correspondiente)
+        Cuerpo (JSON): Datos de la nueva reserva
+
+    Obtener todas las reservas:
+        Método: GET
+        URL: http://localhost:8080/agency/room-booking
+
+    Cancelar una reserva:
+        Método: DELETE
+        URL: http://localhost:8080/agency/room-booking/{id}
+
+Colección de Postman para Vuelos:
+
+    Obtener todos los vuelos:
+        Método: GET
+        URL: http://localhost:8080/agency/flights
+
+    Buscar vuelos por origen, destino y fechas:
+        Método: GET
+        URL: http://localhost:8080/agency/flights?dateFrom=dd/mm/aaaa&dateTo=dd/mm/aaaa&origin=ciudad1&destination=ciudad2
+
+    Crear un nuevo vuelo:
+        Método: POST
+        URL: http://localhost:8080/agency/flights/new
+        Cuerpo (JSON): Datos del nuevo vuelo
+
+    Editar un vuelo existente:
+        Método: PUT
+        URL: http://localhost:8080/agency/flights/edit/{id}
+        Cuerpo (JSON): Datos actualizados del vuelo
+
+    Eliminar un vuelo:
+        Método: DELETE
+        URL: http://localhost:8080/agency/flights/delete/{id}
