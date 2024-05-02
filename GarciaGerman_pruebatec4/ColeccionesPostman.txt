@@ -10,23 +10,23 @@ Colección de Postman para Hoteles:
 
     Crear un nuevo hotel:
         Método: POST
-        URL: http://localhost:8080/agency/hotels
+        URL: http://localhost:8080/agency/hotels/ingresarHoteles
         Cuerpo (JSON): Datos del nuevo hotel
 
     Editar un hotel existente:
         Método: PUT
-        URL: http://localhost:8080/agency/hotels/{id}
+        URL: http://localhost:8080/agency/hotels/editar/{id}
         Cuerpo (JSON): Datos actualizados del hotel
 
     Eliminar un hotel:
         Método: DELETE
-        URL: http://localhost:8080/agency/hotels/{id}
+        URL: http://localhost:8080/agency/hotels/borrar/{id}
 
 Colección de Postman para Reservas:
 
     Crear una nueva reserva:
         Método: POST
-        URL: http://localhost:8080/agency/room-booking/new (o la URL correspondiente)
+        URL: http://localhost:8080/agency/room-booking/new
         Cuerpo (JSON): Datos de la nueva reserva
 
     Obtener todas las reservas:
